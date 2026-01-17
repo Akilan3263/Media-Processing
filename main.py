@@ -175,8 +175,8 @@ with gr.Blocks(theme="soft") as demo:
     with gr.TabItem("🏠 Home"):
         gr.Markdown("""
         # 🎬 Welcome to Advanced Video Editor
-        **Developed by Akilan JD, Adithya J, and Jayavignesh G**  
-        *Engineers Exploring the Future of Media and AI*
+        **Developed by Akilan Jayakumar Deepa**  
+        *Engineer Exploring the Future of Media and AI*
         
         ## 🔹 Features:
         - ✂️ **Video Cutter**: Trim multiple parts of a video with ease.
@@ -243,5 +243,6 @@ with gr.Blocks(theme="soft") as demo:
             clear_button.click(reset_parameters, outputs=[brightness, contrast, hue, saturation, flip, grayscale, rotate, blur, sharpen, crop])
 
 demo.launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 8080)))
+
 
 
